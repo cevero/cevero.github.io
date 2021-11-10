@@ -61,8 +61,6 @@ make clean lib build opt
 Then, to simulate, first source the config.sh file, in order to execute the `source pkg/sdk/dev/sourceme.sh`
 ```
 source config.sh
-```
-```
 cd pulp-rt-examples
 cd error-recovery
 make clean all run
