@@ -18,7 +18,7 @@ git clone https://github.com/cevero/pulp-sdk
 git clone https://github.com/cevero/pulp-rt-examples
 ```
 
-Read the READEME.md from the repositories and install any dependencies that are needed.
+Read the README.md from the repositories and install any dependencies that are needed.
 
 Run the following comands to configure the repositories to compile the PULP Platform with the CEVERO core.
 
