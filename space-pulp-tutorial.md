@@ -5,24 +5,35 @@ layout: default
 # [](#header-1)Space Pulp Tutorial
 
 ## Install pulp-riscv-gnu-toolchain
+
 - Clone the repositories and submodules:
 `git clone --recursive https://github.com/pulp-platform/pulp-riscv-gnu-toolchain.git`
+
 - Install dependencies (Ubuntu 20.04):
 `sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk
 build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev`
+
 - Add install path to PATH:
 `export PATH=$PATH:/opt/riscv/bin`
 `./configure --prefix=/opt/riscv --with-arch=rv32imc --with-cmodel=medlow --enable-multilib`
+
 - Compile and install to `--prefix`:
 `sudo make`
+
 - Install `pyelftools`
-`sudo apt install python3-pip`
-`sudo pip3 install pyelftools`
+``` 
+sudo apt install python3-pip
+sudo pip3 install pyelftools
+```
 
 ## Michael's Space Pulp instructions
+
 - Clone my fork of the `pulp` repository (https://github.com/micprog/pulp) and check out the `space_pulp_tmp` branch.
+
 - There's also the cevero fork, just clone (https://github.com/cevero/pulp) and check out the `cevero-space-pulp-tmp` branch. This was created by:
+
     - Adding Michael's fork as a remote: `git remote add micprog https://github.com/micprog/pulp.git`
+
     - Creating a local branch named `cevero-space-pulp-tmp` and switching to it.
     - Pulling `micprog/space_pulp_tmp` into `cevero-space-pulp-tmp` with `git pull micprog space_pulp_tmp`
 - Here, run the following make targets to get the corresponding software with changes:
