@@ -2,5 +2,5 @@ theme: jekyll-theme-minimal
 title: Cevero
 description: A Chip multi-procEssor for Very Energy-efficient aeRospace missiOns
 logo: /assets/img/logo.png
-show_downloads: true
+show_downloads: false
 google_analytics:
