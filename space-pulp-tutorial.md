@@ -1,18 +1,8 @@
+ ---
+ layout: default
+ ---
+
  # Space Pulp Tutorial
-  ## Questasim setup
-  1.  Unpack questa.tar.gz:
-  `tar xf questa.tar.gz`
-  2. Execute and install as "All platforms":
-  `sudo ./install.linux64`
-  3. Execute the magical stuff using wine:
-  `wine MentorKG.exe -patch <install_path> -pkg <path_to_lib/mgc.pkginfo>  -o license.dat`
-  Instal path is where you can find the vsim executable. On linux, it should be inside /questasim/linux_x86_64. The mgc.pkginfo is in the install_path/mgls/lib.
-  Example install path: `/opt/questa/`
-  `wine MentorKG.exe -patch /opt/questa/questasim/linux_x86_64/ -pkg /opt/questa/questasim/linux_x86_64/mgls/lib/mgc.pkginfo -o license.dat` 
-  4. Run the command to export the LM_LICENSE_FILE. This is the location of the license.dat generated in the last command:
-  `export LM_LICENSE_FILE=<license_location>`
-  5. Then run the sfk command. SFK is a linux utilitary called Swiss File Knife.
-  `./sfk rep -yes -pat -bin /5589E557565381ECD00000008B5508/31C0C357565381ECD00000008B5508/ -bin /5589E557565381ECD8000000E8000000005B81C3/33C0C357565381ECD8000000E8000000005B81C3/ -bin /41574989FF415641554154554889CD534489C3/33C0C389FF415641554154554889CD534489C3/ -dir <path_to_mgls/lib>`
 
   ## Install pulp-riscv-gnu-toolchain
   - Clone the repositories and submodules:
