@@ -15,7 +15,7 @@ export PATH="$PATH:/proj/questasim_10.7c_linux64/questasim/linux_x86_64"
 ```
 
 ``` bash
-export LM_LICENSE_FILE="/proj/questasim_10.7c_linux64/license.dat"
+export LM_LICENSE_FILE="PATH TO LICENSE"
 ```
 
 Open QuestaSim 10.7c with the following command:
