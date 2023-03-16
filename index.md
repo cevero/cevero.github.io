@@ -12,5 +12,6 @@ The CEVERO chip is being develop in our repositories. Follow the link for techni
 
 ### CEVERO Pages:
 
+*   [Tutorial to run the PULP platform from scratch](pulp-full-tutorial)
 *   [How to compile the CEVERO](cevero-compilation)
 *   [How to compile the Space PULP](space-pulp-tutorial)
