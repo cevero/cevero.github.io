@@ -13,6 +13,6 @@ The CEVERO chip is being develop in our repositories. Follow the link for techni
 ### Tutorials:
 
 *   [Set up the development environment](pulp-environment)
-*   [PULP Compile and run test](pulp-environment)
+*   [PULP Compile and run test](pulp-tutorial)
 *   [How to compile the CEVERO](cevero-compilation)
 *   [How to compile the Space PULP](space-pulp-tutorial)
