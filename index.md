@@ -10,8 +10,9 @@ This project is developed under the [LAPPS](https://lapps.imd.ufrn.br/)
 
 The CEVERO chip is being develop in our repositories. Follow the link for technical information on how to compile and execute the CEVERO.
 
-### CEVERO Pages:
+### Tutorials:
 
-*   [Tutorial to run the PULP platform from scratch](pulp-full-tutorial)
+*   [Set up the development environment](pulp-environment)
+*   [PULP Compile and run test](pulp-environment)
 *   [How to compile the CEVERO](cevero-compilation)
 *   [How to compile the Space PULP](space-pulp-tutorial)
